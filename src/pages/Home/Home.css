@@ -1,0 +1,68 @@
+.yogi{
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.yogi-caption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.caption-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.yogi-caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.yogi-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.yogi-btns .btn img{
+    width: 25px;
+}
+.yogi-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.yogi-btns .btn.dark-btn{
+ color: white;
+  background: #6d6d6eb3;
+}
+
+.yogi-btns .btn:hover{
+    background: #ffffffbf;
+}
+
+.yogi-btns .btn.dark-btn:hover{
+    background: #6d6d6e66;
+}
+
+.more-cards{
+    padding-left: 6%;
+}
